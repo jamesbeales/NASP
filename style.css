@@ -1,0 +1,121 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  width; 375px;
+}
+
+.Nav {
+  padding: 10px 0px 10px 0px;
+  height: 50;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  display: block;
+}
+
+.NavLogo {
+  height: 40px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.DashTitle {
+  font-size: 24px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Cards {
+  margin-top: 70px;
+  display: block;
+  overflow-y: scroll;
+}
+.InfoCard {
+  display: inline-block;
+  vertical-align: top;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #light-grey;
+  box-shadow: 1px 1px 3px 0 #aaa;
+  color: #333
+}
+.CardTitle {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+.CardHeadline{
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  font-size: 24px;
+}
+.CardDetail{
+  font-size: 10px;
+  overflow: hidden;
+}
+.Collapsed{
+  height: 0px;
+}
+.CardDetailTable {
+  margin: auto;
+}
+.CardDetailTableHeadings{
+  color: black;
+}
+.CardDetailTableData{
+  color: #333;
+  
+}
+.CardDetailTable tr:nth-child(even){
+  background-color: #e2e2e2
+}
+
+#coh .CardDetailTableData td:nth-child(1) {
+  width: 150px;
+}
+
+#coh .CardDetailTableData td:nth-child(2) {
+  width: 50px;
+  text-align: center;
+}
+
+#coh .CardDetailTableData td:nth-child(3) {
+  width: 50px;
+  text-align: center;
+}
+
+#coh .CardDetailTableData td:nth-child(4) {
+  width: 90px;
+  text-align: right;
+}
+
+#fundsin .CardDetailTableData td:nth-child(1) {
+  width: 60px;
+}
+
+#fundsin .CardDetailTableData td:nth-child(2) {
+  width: 180px;
+  text-align: left;
+}
+
+#fundsin .CardDetailTableData td:nth-child(3) {
+  width: 100px;
+  text-align: right;
+}
+
+#fundsout .CardDetailTableData td:nth-child(1) {
+  width: 60px;
+}
+
+#fundsout .CardDetailTableData td:nth-child(2) {
+  width: 180px;
+  text-align: left;
+}
+
+#fundsout .CardDetailTableData td:nth-child(3) {
+  width: 100px;
+  text-align: right;
+}
